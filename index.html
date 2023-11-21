@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>REGESTRATION FORM</title>
+</head>
+
+<body>
+    <form id="userform">
+        <fieldset>
+            <legend>REGESTRATION FORM</legend>
+            <div>
+                <label for="name">NAME</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div>
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="PASSWORD">
+            </div>
+            <div>
+                <label for="DOB">DATE OF BIRTH</label>
+                <input type="date" name="DOB" id="DOB" required>
+            </div>
+            <div class="CHECKBOX">
+                <input type="checkbox" name="agree" id="agree">
+                <label for="agree">Accept Terms and Conditions</label>
+            </div>
+            <button type="submit" id="submit">SUBMIT</button>
+        </fieldset>
+    </form>
+
+    <div class="userinfo">
+        <h3>Submitted Details</h3>           
+            <div id="userinfo"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
